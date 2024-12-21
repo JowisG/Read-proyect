@@ -6,6 +6,8 @@
     <title>Read Proyect</title>
 </head>
 <body>
-    
+    <?php
+        require_once 'Vistas/Home.php';
+    ?>
 </body>
 </html>
