@@ -7,6 +7,7 @@
 </head>
 <body>
     <?php
+        require_once 'Partes/Menu.php'; 
         require_once 'Vistas/Home.php';
     ?>
 </body>
