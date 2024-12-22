@@ -1,0 +1,16 @@
+:root{
+    /* Primaries */
+    --White: #ffffff;
+    --Black: #000000;
+    /* Seconodaries */
+    --Gray: #808080;
+    --LightGray: #ededed;
+    /* Especial cases */
+    --first: #0095d4;
+    --second: #006ac6;
+    /* Valid or invalid */
+    --valid: #20d055;
+    --invalid: #ff4444;
+    /* Esp-Shadows */
+    --shadow-lightgray: #00000070;
+}

@@ -1,17 +1,17 @@
-<div>
+<div class="Login">
     <form class="form" action="" method="post" autocomplete="off">
         <h3>Proyect Read</h3>
-        <div class="user">
-            <lable for="user">User:</lable>
+        <div>
+            <label class="esp" for="user">User:</label>
             <input type="text" name="user" id="user" pattern="[a-zA-Z0-9#$.]{1,10}"
             maxlength="10" minlength="1" required title="Letras, Números y Simbolos. Longitud: 1-10">
         </div>
-        <div class="password">
+        <div>
             <label for="password">Password:</label>
             <input type="password" name="password" id="password" pattern="[a-zA-Z0-9$@.-]{7,50}"
             maxlength="50" minlength="7" required title="Letras, Números y Simbolos. Longitud: 7-50">
         </div>
-        <p>
+        <p class="summit">
             <button type="submit">Access</button>
         </p>
 
