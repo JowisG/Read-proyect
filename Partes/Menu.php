@@ -3,7 +3,7 @@
         <li>
             <a href="">Home</a>
         </li>
-        <li>
+        <li class="sub">
             <a href="">Manwha</a>
             <ul class="submenu">
                 <li><a href="">Recommendations</a></li>
@@ -25,6 +25,8 @@
             </ul>
         </li>
     </ul>
-    <button class="btn" type="button">Cuenta</button>
-    <button class="btn" type="button">Salir</button>
+    <div class="btn-group">
+        <a class="btn log" href="">Cuenta</a>
+        <a class="btn out" href="Principal.php?vista=Logout">Salir</a>
+    </div>
 </div>

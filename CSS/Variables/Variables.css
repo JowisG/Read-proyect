@@ -8,9 +8,19 @@
     /* Especial cases */
     --first: #0095d4;
     --second: #006ac6;
+    --third: #0033a0;
     /* Valid or invalid */
     --valid: #20d055;
     --invalid: #ff4444;
     /* Esp-Shadows */
     --shadow-lightgray: #00000070;
+    /* Hovers */
+    --links-menu: #000000;
+    --btn-hover: #000000;
+    --log-hover: #00ff51;
+    --out-hover: #ff0000;
+    /* Bottons */
+    --btn-normal: #000000;
+    --btn-log: #72ff9f;
+    --btn-out: #ff4646;
 }
