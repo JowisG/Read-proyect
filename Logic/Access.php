@@ -1,41 +1,24 @@
 <?php
+    include "./Logic/Messages.php";
     $user = trim_danger($_POST['user']);
     $password = trim_danger($_POST['password']);
 
     if($user == "" || $password == ""){
-        echo '
-        <div class="noti error">
-            <strong>¡Error!</strong>
-            <br>
-            <p>Did not fill the necesary field</p>
-        </div>
-        ';
+        error("Did not fill the necesary field");
         exit();
     }
 
     if(pattern("[a-zA-Z0-9#$.]{1,10}", $user)){
-        echo '
-        <div class="noti warning">
-            <strong>¡Warning!</strong>
-            <br>
-            <p>The field <strong>USER</strong> does not have the required format</p>
-        </div>
-        ';
+        warning("The field <strong>USER</strong> does not have the required format");
         exit();
     }
-    if(pattern("[a-zA-Z0-9$@.-]{7,50}", $password)){
-        echo '
-        <div class="noti warning">
-            <strong>¡Warning!</strong>
-            <br>
-            <p>The field <strong>PASSWORD</strong> does not have the required format</p>
-        </div>
-        ';
+    if(pattern("[a-zA-Z0-9$@.-_]{7,50}", $password)){
+        warning("The field <strong>PASSWORD</strong> does not have the required format");
         exit();
     }
 
     $check_access = conexion();
-    $check_access = $check_access->query("SELECT ID, Name, Surname,User, Password
+    $check_access = $check_access->query("SELECT ID, Admin, Name, Surname, User, Password
                                          FROM access Where User = '$user'");
 
     if($check_access->rowCount() == 1){
@@ -43,6 +26,7 @@
         if($check_access['User'] == $user && $check_access['Password'] == $password){
             
             $_SESSION['ID'] = $check_access['ID'];
+            $_SESSION['Admin'] = $check_access['Admin'];
             $_SESSION['Name'] = $check_access['Name'];
             $_SESSION['Surname'] = $check_access['Surname'];
             $_SESSION['User'] = $check_access['User'];
@@ -57,23 +41,13 @@
                 header("Location: Principal.php?vista=Home");
             }
 
-        }else{
-            echo '
-            <div class="noti error">
-                <strong>Try again</strong>
-                <br>
-                <p><strong>USER</strong> or <strong>PASSWORD</strong> incorrect</p>
-            </div>
-            ';
+        }else if($check_access['User'] == $user){
+            error_title("Try again", "<strong>PASSWORD</strong> incorrect");
+        }else if($check_access['Password'] == $password){
+            error_title("Try again", "<strong>USER</strong> incorrect");
         }
     }else{
-        echo '
-        <div class="noti error">
-            <strong>Try again</strong>
-            <br>
-            <p><strong>USER</strong> or <strong>PASSWORD</strong> incorrect</p>
-        </div>
-        ';
+        error_title("Try again", "<strong>USER</strong> or <strong>PASSWORD</strong> incorrect");
     }
     $check_access = null;
 ?>

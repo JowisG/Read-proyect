@@ -12,6 +12,10 @@
     /* Valid or invalid */
     --valid: #20d055;
     --invalid: #ff4444;
+    --Error: var(--invalid);
+    --Warning: 	#ffcc00;
+    --Correct: var(--valid);
+    --Alert: #007dc5;
     /* Esp-Shadows */
     --shadow-lightgray: #00000070;
     /* Hovers */

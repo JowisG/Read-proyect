@@ -8,7 +8,7 @@
         </div>
         <div>
             <label for="password">Password:</label>
-            <input type="password" name="password" id="password" pattern="[a-zA-Z0-9$@.-]{7,50}"
+            <input type="password" name="password" id="password" pattern="[a-zA-Z0-9$@.-_]{7,50}"
             maxlength="50" minlength="7" required title="Letras, Números y Simbolos. Longitud: 7-50">
         </div>
         <p class="summit">

@@ -29,7 +29,8 @@
         } else if ($_GET['vista'] == "Login") {
             include './Vistas/Login.php';
         } else {
-            include './Vistas/404.php';
+            echo "<link rel='stylesheet' href='./CSS/Error.css'>";
+            include './Vistas/Error.php';
         }
     ?>
 </body>

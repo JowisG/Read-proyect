@@ -1,0 +1,33 @@
+.noti{
+    margin: 0 .5em;
+    padding: 1em;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: .35em;
+}
+
+.error{
+    background-color: var(--Error);
+    color: var(--White);
+}
+
+.warning{
+    background-color: var(--Warning);
+    color: var(--Black);
+}
+
+.correct{
+    background-color: var(--Correct);
+    color: var(--White);
+}
+
+.alert{
+    background-color: var(--Alert);
+    color: var(--White);
+}
+
+.noti > strong{
+    text-align: center;
+    font-size: 1.2em;
+}
