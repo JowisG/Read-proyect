@@ -1,32 +1,23 @@
-<div class="menu">
-    <ul class="menu-list">
+<nav class="nav_bar">
+    <h2>Proyect Read</h2>
+    <ul class="menu">
+        <li><a href="#">Home</a></li>
         <li>
-            <a href="Principal.php?vista=Home">Home</a>
-        </li>
-        <li>
-            <a href="">Manwha</a>
+            <a href="#">Opinions</a>
             <ul class="submenu">
-                <li><a href="">Recommendations</a></li>
-                <li><a href="">Best of the day</a></li>
+                <li><a href="#">Manwha</a></li>
+                <li><a href="#">Manga</a></li>
             </ul>
         </li>
         <li>
-            <a href="">Manga</a>
+            <a href="#">About</a>
             <ul class="submenu">
-                <li><a href="">Recommendations</a></li>
-                <li><a href="">Best of the day</a></li>
+                <li><a href="#">Made with</a></li>
+                <li><a href="#">References</a></li>
             </ul>
         </li>
         <li>
-            <a href="">App</a>
-            <ul class="submenu">
-                <li><a href="">Made with</a></li>
-                <li><a href="">About</a></li>
-            </ul>
+            <button type="button" title="Want to login or singin">Login<b>?</b></button>
         </li>
     </ul>
-    <div class="btn-group">
-        <a class="btn log" href="Principal.php?vista=Cuenta&id=<?php echo $_SESSION['ID']; ?>">Cuenta</a>
-        <a class="btn out" href="Principal.php?vista=Logout">Salir</a>
-    </div>
-</div>
+</nav>
