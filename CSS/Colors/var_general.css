@@ -1,0 +1,22 @@
+@media (prefers-color-scheme: light) {
+    :root {
+        --text: #000000;
+        --text-hightlight: #4397eb;
+        --background: #ffffff;
+        --primary: #b26cda;
+        --secondary: #6ceadb;
+        --accent: #1d35cd;
+        --border: rgb(30, 30, 30);
+    }
+}
+@media (prefers-color-scheme: dark) {
+    :root {
+        --text: #ffffff;
+        --text-hightlight: #2581d0;
+        --background: #000000;
+        --primary: #6a2492;
+        --secondary: #159585;
+        --accent: #3049e2;
+        --border: rgb(220, 220, 220);
+    }
+}  
