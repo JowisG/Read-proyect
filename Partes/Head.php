@@ -9,6 +9,6 @@
 <!-- CSS files -->
  <link rel="stylesheet" href="../CSS/general.css" class="css">
  <link rel="stylesheet" href="../CSS/Colors/var_general.css" class="css">
- <link rel="stylesheet" href="../CSS/menu.css" class="css">
+ <link rel="stylesheet" href="../CSS/Menu.css" class="css">
 
 <title>Read Proyect</title>

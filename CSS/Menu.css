@@ -9,6 +9,10 @@
     margin-left: 1em;
     font-size: 2.5em;
 }
+.nav_bar h2 a{
+    text-decoration: none;
+    color: var(--text);
+}
 .nav_bar .menu{
     display: flex;
     justify-content: space-around;
@@ -24,23 +28,40 @@
 .nav_bar .menu .submenu{
     list-style: none;
     position: absolute;
+    transform: translateY(-100%);
+    z-index: -1;
+    
+    transition: transform .5s ease;
 }
-
+.submenu li:last-child a{
+    border-bottom: .2em solid var(--border);
+}
+.nav_bar .menu li:hover .submenu{
+    transform: translateY(0);
+}
 .nav_bar .menu a{
     padding: .75em 1.5em;
     display: block;
     color: var(--text);
     text-decoration: none;
     text-align: center;
+    font-size: 1.2em;
     align-content: center;
     align-self: center;
     height: calc(100% - 1.5em);
+    background-color: var(--primary);
     
     border-left: .2em solid var(--border);
     border-right: .2em solid var(--border);
     min-width: 100%;
+    transition: background .5s ease;
 }
 .nav_bar .menu a:hover{
     background: var(--accent);
     color: var(--text);
+}
+.Login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
