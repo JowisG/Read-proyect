@@ -1,19 +1,19 @@
 <nav class="nav_bar">
     <h2><a href="Hub.php?vista=home">Proyect Read</a></h2>
     <ul class="menu">
-        <li><a href="#">Home</a></li>
+        <li><a href="#"><i class="fa-solid fa-house"></i> Home</a></li>
         <li>
-            <a href="#">Opinions</a>
+            <a href="#"><i class="fa-solid fa-comments"></i> Opinions</a>
             <ul class="submenu">
-                <li><a href="#">Manwha</a></li>
-                <li><a href="#">Manga</a></li>
+                <li><a href="#"><i class="fa-solid fa-mobile"></i> Manwha</a></li>
+                <li><a href="#"><i class="fa-solid fa-book-tanakh"></i> Manga</a></li>
             </ul>
         </li>
         <li>
-            <a href="#">About</a>
+            <a href="#"><i class="fa-solid fa-xmark"></i> About</a>
             <ul class="submenu">
-                <li><a href="#">Made with</a></li>
-                <li><a href="#">References</a></li>
+                <li><a href="#"><i class="fa-solid fa-gears"></i> Made with</a></li>
+                <li><a href="#"><i class="fa-solid fa-bookmark"></i> References</a></li>
             </ul>
         </li>
         <li class="Login">
