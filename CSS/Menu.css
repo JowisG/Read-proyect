@@ -7,7 +7,7 @@
 }
 .nav_bar h2{
     margin-left: 1em;
-    font-size: 2.5em;
+    font-size: 2em;
 }
 .nav_bar h2 a{
     text-decoration: none;
@@ -23,7 +23,8 @@
 .nav_bar .menu li{
     height: 100%;
     position: relative;
-    width: 10em;
+    width: 10vh;
+    min-width: 6em;
 }
 .nav_bar .menu .submenu{
     list-style: none;
@@ -46,7 +47,7 @@
     color: var(--text);
     text-decoration: none;
     text-align: center;
-    font-size: 1.2em;
+    font-size: 1em;
     align-content: center;
     align-self: center;
     height: calc(100% - 1.5em);
@@ -66,3 +67,17 @@
     align-items: center;
     justify-content: center;
 }
+
+@media screen and (min-width: 1000px) and (max-width: 1400px){
+    .nav_bar{
+        grid-template-columns: .3fr 0.8fr;
+    }
+    .nav_bar .menu{
+        margin-right: 1em;
+    }
+    .nav_bar .menu{
+        justify-content: space-around;
+    }
+}
+
+/*TODO Hacer screen para menos de 1000px -> menu para moviles */
