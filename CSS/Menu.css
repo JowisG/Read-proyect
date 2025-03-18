@@ -7,7 +7,11 @@
 }
 .nav_bar h2{
     margin-left: 1em;
-    font-size: 2.5em;
+    font-size: 2em;
+}
+.nav_bar h2 a{
+    text-decoration: none;
+    color: var(--text);
 }
 .nav_bar .menu{
     display: flex;
@@ -19,28 +23,61 @@
 .nav_bar .menu li{
     height: 100%;
     position: relative;
-    width: 10em;
+    width: 10vh;
+    min-width: 6em;
 }
 .nav_bar .menu .submenu{
     list-style: none;
     position: absolute;
-}
+    transform: translateY(-100%);
+    z-index: -1;
 
+    transition: transform .25s ease;
+}
+.submenu li:last-child a{
+    border-bottom: .2em solid var(--border);
+    border-radius: 0 0 .5em .5em;
+}
+.nav_bar .menu li:hover .submenu{
+    transform: translateY(0);
+}
 .nav_bar .menu a{
     padding: .75em 1.5em;
     display: block;
     color: var(--text);
     text-decoration: none;
     text-align: center;
+    font-size: 1em;
     align-content: center;
     align-self: center;
     height: calc(100% - 1.5em);
+    background-color: var(--primary);
     
     border-left: .2em solid var(--border);
     border-right: .2em solid var(--border);
     min-width: 100%;
+    transition: background .5s ease;
 }
 .nav_bar .menu a:hover{
     background: var(--accent);
     color: var(--text);
 }
+.Login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1400px){
+    .nav_bar{
+        grid-template-columns: .3fr 0.8fr;
+    }
+    .nav_bar .menu{
+        margin-right: 1em;
+    }
+    .nav_bar .menu{
+        justify-content: space-around;
+    }
+}
+
+/*TODO Hacer screen para menos de 1000px -> menu para moviles */

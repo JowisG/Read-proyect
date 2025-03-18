@@ -18,3 +18,23 @@ body{
     background-color: var(--background);
     color: var(--text);
 }
+
+button{
+    padding: 0.5em 1em;
+    display: block;
+    background: var(--secondary);
+    color: var(--text);
+    font-size: 1em;
+    border: none;
+
+    border-radius: .5em;
+    box-shadow: .25em .25em .25em var(--shadow);
+
+    transform: scale(1);
+
+    transition: box-shadow .5s ease-in-out, transform .5s ease;
+}
+button:hover{
+    box-shadow: none;
+    transform: scale(0.9);
+}
