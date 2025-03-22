@@ -1,4 +1,4 @@
-<main>
+<main selected_sp>
     <h1>Welcome to Read Proyect</h1>
     <div class="divisor">
         <article class="manwha">
