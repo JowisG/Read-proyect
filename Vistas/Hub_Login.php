@@ -18,13 +18,37 @@
                 <p>There are always other types of stories but after a lot of stories, I think those are the most prominent types of stories, right now. They are not the only type of stories you may find, like in manga, but there is clearly an abundance of these kinds of stories.</p>
             </section>
             <section>
+                <h3>Adaptations to anime</h3>
+                <p>If you have seen anime, you probably heard of “Solo Leveling”, this is an adaptation of a manhwa (it may be from the novel, but it also takes from the manhwa). It seems that a bunch of manhwa are going to get adaptations this year or have been confirmed that they will. This is great news, because more people are going to get introduce to the amazing stories this media has. </p>
+            </section>
+            <section>
                 <h3>Remmendations</h3>
                 <p>Some noteworthy stories I found:</p>
                 <div class="recommend">
-                    <!-- Recomendaciones en un grid -->
+                    <container>
+                        <h4>Recomendation 1</h4>
+                        <img src="" alt="No img at the moment">
+                        <p>Brief description</p>
+                    </container>
+                    <container>
+                        <h4>Recomendation 2</h4>
+                        <img src="" alt="No img at the moment">
+                        <p>Brief description</p>
+                    </container>
+                    <container>
+                        <h4>Recomendation 3</h4>
+                        <img src="" alt="No img at the moment">
+                        <p>Brief description</p>
+                    </container>
+                    <container>
+                        <h4>Recomendation 4</h4>
+                        <img src="" alt="No img at the moment">
+                        <p>Brief description</p>
+                    </container>
                 </div>
             </section>
-            <div class="Hightlight">
+            <div class="hightlight">
+            <h3>HightLight content</h3>
                 <img src="#" alt="No img at the moment">
                 <p></p>
                 <a href="">Link to thing</a>
@@ -32,8 +56,44 @@
         </article>
         <article class="manga">
             <h2>Manga</h2>
-            <p>Insert description</p>
-            <div class="Hightlight">
+            <p>Manga is becoming more and more popular in America and Europe because of the influence of anime in the entertainment industry. I believe the stories the original or adapted stories of manga are incredibly interesting; they are quite different from the occidental and American stories I have read.</p>
+            <p>The stories usually target teenagers, having more romance, action or fantasy genres than other media. As you may know one of the most common genres are “isekai”, which I believe is overdone, but there are some hidden gems in this genre, so don’t disregard these stories just because they are “isekai”.</p>
+            <section>
+                <h3>State of the manga industry</h3>
+                <p>The manga industry , at least at the moment of writing this, is quite depressing. A lot of the mangas are done by overworking the artist or/and underpaying them, which is quite horrendous, I believe the industry needs a tremendous change in the ways it is being monetized and financed. I do not know how, but I believe there are better ways to make this industry profitable.</p>
+            </section>
+            <section>
+                <h3>Adaptations to anime</h3>
+                <p>A bunch of manga or light novels have been adapted and are being adapted to anime, but I believe it is too much to the point that it is overflowing the community and quality of the animes. These season has been good, but certain animes just don’t cut it more for me, they are being adapted just or the sake of being adapted, no plan for sequels or making look good for the standard  of the industry.</p>
+            </section>
+            <section>
+                <h3>Remmendations</h3>
+                <p>Some noteworthy stories I found:</p>
+                <div class="recommend">
+                    <container>
+                        <h4>Recomendation 1</h4>
+                        <img src="" alt="No img at the moment">
+                        <p>Brief description</p>
+                    </container>
+                    <container>
+                        <h4>Recomendation 2</h4>
+                        <img src="" alt="No img at the moment">
+                        <p>Brief description</p>
+                    </container>
+                    <container>
+                        <h4>Recomendation 3</h4>
+                        <img src="" alt="No img at the moment">
+                        <p>Brief description</p>
+                    </container>
+                    <container>
+                        <h4>Recomendation 4</h4>
+                        <img src="" alt="No img at the moment">
+                        <p>Brief description</p>
+                    </container>
+                </div>
+            </section>
+            <div class="hightlight">
+                <h3>HightLight content</h3>
                 <img src="#" alt="No img at the moment">
                 <p></p>
                 <a href="">Link to thing</a>
