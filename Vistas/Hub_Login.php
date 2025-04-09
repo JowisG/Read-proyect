@@ -26,22 +26,22 @@
                 <p>Some noteworthy stories I found:</p>
                 <div class="recommend">
                     <container>
-                        <h4>Recomendation 1</h4>
+                        <h4 selected>Recomendation 1</h4>
                         <img src="" alt="No img at the moment">
                         <p>Brief description</p>
                     </container>
                     <container>
-                        <h4>Recomendation 2</h4>
+                        <h4 selected>Recomendation 2</h4>
                         <img src="" alt="No img at the moment">
                         <p>Brief description</p>
                     </container>
                     <container>
-                        <h4>Recomendation 3</h4>
+                        <h4 selected>Recomendation 3</h4>
                         <img src="" alt="No img at the moment">
                         <p>Brief description</p>
                     </container>
                     <container>
-                        <h4>Recomendation 4</h4>
+                        <h4 selected>Recomendation 4</h4>
                         <img src="" alt="No img at the moment">
                         <p>Brief description</p>
                     </container>
@@ -71,24 +71,44 @@
                 <p>Some noteworthy stories I found:</p>
                 <div class="recommend">
                     <container>
-                        <h4>Recomendation 1</h4>
-                        <img src="" alt="No img at the moment">
-                        <p>Brief description</p>
+                        <h4 href="#" selected>So I’m a spider, so what?</h4>
+                        <img href="#" src="../Resouces/IMG/Covers/Manga/kumoko.webp" alt="No img at the moment" draggable="false">
+                        <p>
+                            Status: Ongoing<br>
+                            Chapters: 73<br>
+                            The funniest and most interesting isekai I have read in manga (not counting anime I watch)
+                        </p>
+                        <a href="#">Opinion</a>
                     </container>
                     <container>
-                        <h4>Recomendation 2</h4>
-                        <img src="" alt="No img at the moment">
-                        <p>Brief description</p>
+                        <h4 selected>With Vengeance, Sincerely, Your Broken Saintess</h4>
+                        <img src="../Resouces/IMG/Covers/Manga/betrayed_saint.webp" alt="No img at the moment" draggable="false">
+                        <p>
+                            Status: Ongoing<br>
+                            Chapters: 123<br>
+                            One of the best romance and unique stories I have read, I believe it’s becoming an anime.
+                        </p>
+                        <a href="#">Opinion</a>
                     </container>
                     <container>
-                        <h4>Recomendation 3</h4>
-                        <img src="" alt="No img at the moment">
-                        <p>Brief description</p>
+                        <h4 selected>The Otome Heroine's Fight for Survival</h4>
+                        <img src="../Resouces/IMG/Covers/Manga/assasin_survival.webp" alt="No img at the moment" draggable="false">
+                        <p>
+                            Status: Ongoing <br>
+                            Chapters: 23 <br>
+                            Amazing start, best in putting tension and having twist and turns in the survival of the protagonist.
+                            </p>
+                        <a href="#">Opinion</a>
                     </container>
                     <container>
-                        <h4>Recomendation 4</h4>
-                        <img src="" alt="No img at the moment">
-                        <p>Brief description</p>
+                        <h4 selected>The fed-up office Lady Wants to Serve The villainess</h4>
+                        <img src="../Resouces/IMG/Covers/Manga/fed_up_office.webp" alt="No img at the moment" draggable="false">
+                        <p>
+                            Status: Ongoing <br>
+                            Chapter: 20 <br>
+                            It’s one of the best yuris I have read so far, has a lot of the good drama.
+                            </p>
+                        <a href="#">Opinion</a>
                     </container>
                 </div>
             </section>

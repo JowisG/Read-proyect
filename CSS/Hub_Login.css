@@ -143,10 +143,26 @@ main article .recommend{
     padding: 1em;
     border: .2em solid var(--border-soft);
     border-radius: .5em;
+
+    display: grid;
+    grid-template-columns: fit-content, 1fr;
+    grid-template-rows: repeat(fit-content, 2);
+    column-gap: 1em;
+}
+.recommend h4{
+    grid-column: 1 / span 2;
+}
+.recommend a{
+    grid-column: 1 / span 2;
+}
+.recommend img{
+    height: 15em;
+    image-rendering: optimizeSpeed;
 }
 .recommend container p{
+    margin-top: 0;
     font-size: .9em;
-
+    text-align: left;
 }
 main .extra{
     margin-top: 1em;
@@ -188,6 +204,23 @@ main .extra .btns{
     }
     main .extra{
         width: 97%;
+    }
+    .recommend{
+        display: grid;
+        grid-template-columns: 1fr;
+        column-gap: 0;
+    }
+    .recommend h4{
+        grid-column: 1 / pan 1;
+    }
+    .recommend a{
+        grid-column: 1 / pan 1;
+    }
+    .recommend img{
+        width: 100%;
+        height: 10em;
+        object-fit: cover;
+        object-position: 0% 0%;
     }
 }
 
