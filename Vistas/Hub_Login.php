@@ -97,7 +97,7 @@
                             Status: Ongoing <br>
                             Chapters: 23 <br>
                             Amazing start, best in putting tension and having twist and turns in the survival of the protagonist.
-                            </p>
+                        </p>
                         <a href="#">Opinion</a>
                     </container>
                     <container>
@@ -107,7 +107,7 @@
                             Status: Ongoing <br>
                             Chapter: 20 <br>
                             It’s one of the best yuris I have read so far, has a lot of the good drama.
-                            </p>
+                        </p>
                         <a href="#">Opinion</a>
                     </container>
                 </div>
