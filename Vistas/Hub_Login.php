@@ -26,24 +26,44 @@
                 <p>Some noteworthy stories I found:</p>
                 <div class="recommend">
                     <container>
-                        <h4 selected>Recomendation 1</h4>
-                        <img src="" alt="No img at the moment">
-                        <p>Brief description</p>
+                        <h4 selected>My Farm by the Palace</h4>
+                        <img src="../Resouces/IMG/Covers/Manwha/farm_palace.webp" alt="No img at the moment" draggable="false">
+                        <p>
+                            Status: Ongoing <br>
+                            Chapters: 86+ <br>
+                            A Slice of life romance of a girl having a farm in the middle of a palace, I think you will love it.
+                        </p>
+                        <a href="#">Opinion</a>
                     </container>
                     <container>
-                        <h4 selected>Recomendation 2</h4>
-                        <img src="" alt="No img at the moment">
-                        <p>Brief description</p>
+                        <h4 selected>The Archimage’s Restaurant</h4>
+                        <img src="../Resouces/IMG/Covers/Manwha/archmage_restaurant.webp" alt="No img at the moment" draggable="false">
+                        <p>
+                            Status: Ongoing <br>
+                            Chapters: 75+ <br>
+                            Just read it, it is amazing the way it transmits messages, the story is amazing, and it has some impactful moments.
+                        </p>
+                        <a href="#">Opinion</a>
                     </container>
                     <container>
-                        <h4 selected>Recomendation 3</h4>
-                        <img src="" alt="No img at the moment">
-                        <p>Brief description</p>
+                        <h4 selected>The Novel’s Extra</h4>
+                        <img src="../Resouces/IMG/Covers/Manwha/Extra.webp" alt="No img at the moment" draggable="false">
+                        <p>
+                            Status: Ongoing <br>
+                            Chapters: 125+ <br>
+                            One of the best “isekais” I’ve read, is really interesting how the author ends up inside his work that is being controlled by a co-author.
+                        </p>
+                        <a href="#">Opinion</a>
                     </container>
                     <container>
-                        <h4 selected>Recomendation 4</h4>
-                        <img src="" alt="No img at the moment">
-                        <p>Brief description</p>
+                        <h4 selected>The Extra’s Academy Survival Guide</h4>
+                        <img src="../Resouces/IMG/Covers/Manwha/Academy_guide.webp" alt="No img at the moment" draggable="false">
+                        <p>
+                            Status: Ongoing <br>
+                            Chapters: 72+ <br>
+                            It may start generic, but it becomes one if not the best fantasy manhwas I read.
+                        </p>
+                        <a href="#">Opinion</a>
                     </container>
                 </div>
             </section>
@@ -75,7 +95,7 @@
                         <img href="#" src="../Resouces/IMG/Covers/Manga/kumoko.webp" alt="No img at the moment" draggable="false">
                         <p>
                             Status: Ongoing<br>
-                            Chapters: 73<br>
+                            Chapters: 73+<br>
                             The funniest and most interesting isekai I have read in manga (not counting anime I watch)
                         </p>
                         <a href="#">Opinion</a>
@@ -85,7 +105,7 @@
                         <img src="../Resouces/IMG/Covers/Manga/betrayed_saint.webp" alt="No img at the moment" draggable="false">
                         <p>
                             Status: Ongoing<br>
-                            Chapters: 123<br>
+                            Chapters: 123+<br>
                             One of the best romance and unique stories I have read, I believe it’s becoming an anime.
                         </p>
                         <a href="#">Opinion</a>
@@ -95,7 +115,7 @@
                         <img src="../Resouces/IMG/Covers/Manga/assasin_survival.webp" alt="No img at the moment" draggable="false">
                         <p>
                             Status: Ongoing <br>
-                            Chapters: 23 <br>
+                            Chapters: 23+<br>
                             Amazing start, best in putting tension and having twist and turns in the survival of the protagonist.
                         </p>
                         <a href="#">Opinion</a>
@@ -105,7 +125,7 @@
                         <img src="../Resouces/IMG/Covers/Manga/fed_up_office.webp" alt="No img at the moment" draggable="false">
                         <p>
                             Status: Ongoing <br>
-                            Chapter: 20 <br>
+                            Chapter: 20+<br>
                             It’s one of the best yuris I have read so far, has a lot of the good drama.
                         </p>
                         <a href="#">Opinion</a>

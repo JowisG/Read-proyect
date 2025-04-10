@@ -17,11 +17,12 @@ main a{
     margin: auto;
     margin-top: .5em;
     padding: .2em .75em;
-    width: fit-content;
+    width: 80%;
     
     text-decoration: none;
+    text-align: center;
     color: var(--text);
-    border: .25dvh solid var(--border-soft);
+    border: .2rem solid var(--border-soft);
     border-radius: 1em;
 
     transition: transform .5s ease, color .5s ease, background .5s ease;
@@ -246,9 +247,6 @@ main .extra .btns{
 
 /** Para tamaños de movil; cambios para movil */
 @media screen and (max-width: 1024px){
-    main{
-        background: red;
-    }
     main .divisor{
         padding: 1em;
         flex-direction: column;
@@ -265,5 +263,9 @@ main .extra .btns{
         padding: .5em 1em;
         width: 95%;
     }
-    /* Cambiar .extra */
+    
+    main .extra{
+        grid-template-columns: 1Fr;
+        gap: 1em;
+    }
 }
