@@ -83,4 +83,18 @@
     }
 }
 
-/*TODO Hacer screen para menos de 1000px -> menu para moviles */
+/* IMP No tengo ni idea de que hacer */
+@media screen and (max-width: 1000px) {
+    .nav_bar{
+        grid-template-columns: 1fr .2fr;
+        position: relative;
+    }
+    .nav_bar .menu{
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+
+        position: absolute;
+        right: 0;
+    }
+}
