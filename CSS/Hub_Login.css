@@ -1,0 +1,271 @@
+main{
+    margin: auto;
+    width: 90%;
+
+    display: grid;
+    grid-template-rows: .2fr 1fr fit-content(1fr);
+    gap: .5em;
+}
+main h1{
+    text-align: center;
+    font-size: 2.5em;
+}
+main p{
+    margin-top: .75em;
+}
+main a{
+    margin: auto;
+    margin-top: .5em;
+    padding: .2em .75em;
+    width: 80%;
+    
+    text-decoration: none;
+    text-align: center;
+    color: var(--text);
+    border: .2rem solid var(--border-soft);
+    border-radius: 1em;
+
+    transition: transform .5s ease, color .5s ease, background .5s ease;
+}
+main a:hover{
+    color: var(--background);
+    background: var(--text);
+    border-color: var(--border-strong);
+    transform: scale(.9);
+}
+
+main .divisor{
+    padding: 1.25em;
+    border-radius: .3em;
+
+    position: relative;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2em;
+}
+
+main .divisor::after{
+    content: "";
+    width: .5vh;
+    height: 95%;
+    background-color: var(--border-strong);
+    position: absolute;
+}
+
+main .divisor article{
+    padding: .5em 4em;
+    width: 45%;
+    height: 100%;
+    text-justify: justify;
+}
+
+main article h2{
+    font-size: 2em;
+    text-decoration: underline;
+    text-align: center;
+}
+main article h3{
+    margin: auto;
+    margin-top:1em;
+    width: 75%;
+
+    font-size: 1.5em;
+    text-align: center;
+    position: relative;
+}
+main article h3::after{
+    content: "";
+    position: absolute;
+    background-color: var(--text);
+    width: 100%;
+    height: .12em;
+    bottom: 0%;
+    left: 0%;
+}
+main article h4{
+    margin-bottom: .5em;
+    font-size: 1.1em;
+    text-align: center;
+    background-color: var(--text);
+    color: var(--background);
+}
+main article p{
+    font-size: 1.25em;
+    text-align: justify;
+}
+
+main article section p{
+    font-size: 1.1em;
+}
+main article ul{
+    margin-left: 3ex;
+    list-style: none;
+    font-size: 1.1em;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: .5em;
+}
+
+main article ul li:nth-child(1){
+    grid-column: span 2;
+}
+
+main article ul li{
+    margin: auto;
+    margin-top: .5em;
+    padding: 0 .75em;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+
+    align-content: center;
+
+    box-sizing: border-box;
+    border-left: .25em solid var(--border-strong);
+    border-right: .25em solid var(--border-strong);
+
+    position: relative;
+    transition: color .5s ease;
+}
+
+main article ul li::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: var(--border-strong);
+    left: 0;
+    top: 0;
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    z-index: -1;
+
+    transform: scaleX(0);
+    transition: transform .25s ease-in-out;
+}
+
+main article ul li:hover::after{
+    transform: scaleX(1);
+}
+main article ul li:hover{
+    color: var(--background);
+}
+
+main article .recommend{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+}
+
+.recommend container{
+    padding: 1em;
+    border: .2em solid var(--border-soft);
+    border-radius: .5em;
+
+    display: grid;
+    grid-template-columns: fit-content, 1fr;
+    grid-template-rows: repeat(fit-content, 2);
+    column-gap: 1em;
+}
+.recommend h4{
+    grid-column: 1 / span 2;
+}
+.recommend a{
+    grid-column: 2 / span 1;
+}
+.recommend img{
+    height: 15em;
+    image-rendering: optimizeSpeed;
+    grid-row: 2 / span 2;
+}
+.recommend container p{
+    margin-top: 0;
+    font-size: .9em;
+    text-align: left;
+}
+main .extra{
+    margin-top: 1em;
+    margin: auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: .5fr 1Fr;
+    gap: 2em;
+}
+
+main .extra section{
+    padding: 1em 1.5em;
+    border: .25em solid var(--border-soft);
+    border-radius: .5em;
+}
+
+main .extra .Singup-Extra {
+    border-style: dashed;
+}
+main .extra .btns{
+    margin: 1em auto auto auto;
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/** Para tamaños de tablet y portatiles entr 1080p y 720p  */
+@media screen and (max-width: 1920px) and (min-width: 1024px){
+    main{
+        width: 100%;
+    }
+    main .divisor{
+        padding: .75em;
+        gap: 1.5em;
+    }
+    main .divisor article{
+        padding: .5em 2em;
+    }
+    main .extra{
+        width: 97%;
+    }
+    .recommend{
+        display: grid;
+        column-gap: 0;
+    }
+    .recommend a{
+        grid-column: 1 / span 2;
+    }
+    .recommend img{
+        width: 100%;
+        height: 10em;
+        object-fit: cover;
+        object-position: 0% 0%;
+
+        grid-row: 2 / span 1;
+        grid-column: span 2;
+    }
+}
+
+/** Para tamaños de movil; cambios para movil */
+@media screen and (max-width: 1024px){
+    main .divisor{
+        padding: 1em;
+        flex-direction: column;
+        gap: 0em;
+    }
+    main .divisor::after{
+        content: none;
+    }
+
+    main .divisor article:nth-child(1){
+        border-bottom: .25em solid var(--border-strong);
+    }
+    main .divisor article{
+        padding: .5em 1em;
+        width: 95%;
+    }
+    
+    main .extra{
+        grid-template-columns: 1Fr;
+        gap: 1em;
+    }
+}

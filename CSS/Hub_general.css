@@ -27,14 +27,14 @@ button{
     font-size: 1em;
     border: none;
 
-    border-radius: .5em;
-    box-shadow: .25em .25em .25em var(--shadow);
-
-    transform: scale(1);
-
+    border-radius: .25em;
+    box-shadow: none;
+    
+    transform: scale(0.9);
+    
     transition: box-shadow .5s ease-in-out, transform .5s ease;
 }
 button:hover{
-    box-shadow: none;
-    transform: scale(0.9);
+    box-shadow: .25em .25em .25em var(--shadow);
+    transform: scale(1);
 }
