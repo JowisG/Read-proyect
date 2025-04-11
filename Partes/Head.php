@@ -12,11 +12,12 @@
 <!---------------------- CSS files ---------------------->
 
 <!-- Simpre cargadas -->
-<link rel="stylesheet" href="../CSS/Hub_general.css" class="css">
-<link rel="stylesheet" href="../CSS/Colors/var_general.css" class="css">
-<link rel="stylesheet" href="../CSS/Menu.css" class="css">
-<link rel="stylesheet" href="../CSS/Footer.css" class="css">
-<link rel="stylesheet" href="../CSS/Aside.css" class="css">
+<link rel="stylesheet" href="../CSS/Hub_general.css">
+<link rel="stylesheet" href="../CSS/Colors/var_general.css">
+<link rel="stylesheet" href="../CSS/Menu.css">
+<link rel="stylesheet" href="../CSS/Footer.css">
+<link rel="stylesheet" href="../CSS/Aside.css">
+<link rel="stylesheet" href="../CSS/Noti.css">
 <!-- Por Vista -->
 <?php 
     $css_file = "Error";
