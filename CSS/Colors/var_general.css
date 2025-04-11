@@ -24,4 +24,8 @@
 
 :root{
     --shadow: #00000085;
+    --error: #ff2929;
+    --warning: #ffee33;
+    --note: #33b1ff;
+    --correct: #00ca2f;
 }
