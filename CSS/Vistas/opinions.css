@@ -37,3 +37,51 @@ content .manhwa{
 content .manga{
     grid-area: manga;
 }
+content div{
+    margin: 0 auto;
+    width: 90%;
+}
+content div h2{
+    text-align: center;
+    font-size: 2em;
+}
+content div > p{
+    text-align: center;
+}
+.op{
+    margin-top: 1em;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2em;
+}
+.op article{
+    padding: 1em;
+    border-radius: .5em;
+    background: var(--background);
+
+    position: relative;
+}
+.op article::before, .op article::after{
+    content: "";
+    height: 100%;
+    width: 100%;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    
+    padding: .25em;
+    border-radius: .5em;
+    background: conic-gradient(from var(--degree),#7700ff 10%, #0066ff 40%, #c300ff 90%, #7700ff 100%);
+    z-index: -1;
+    
+    animation: rotate 2s both infinite;
+    animation-play-state: paused;
+}
+.op article::after{
+    filter: blur(.5em);
+    opacity: .5;
+}
+.op article:hover::before, .op article:hover::after{
+    animation-play-state: running;
+}

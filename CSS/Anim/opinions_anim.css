@@ -1,0 +1,12 @@
+@property --degree{
+    syntax: "<angle>";
+    initial-value: 0deg;
+    inherits: false;
+}
+@keyframes rotate {
+    from{
+        --degree: 0deg;
+    }to{
+        --degree: 360deg;
+    }
+}

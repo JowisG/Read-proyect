@@ -1,4 +1,4 @@
-<main>
+<main selected_sp>
     <intro>
         <h1>Opinions</h1>
         <p>Deciding what are you going to read with the incredible amount of stories there are is quite hard, so usually you end up with 2 options. You start skimming synopsis or reading the first chapters to see if you will like them; or/and see reviews or simple opinions of people to see if the story is any good. This becomes quite tedious, and I feel like it is not going anywhere, but I will try to make it less of a pain by making more accessible opinions that talk more about the story without spoiling, just trying to transmit what you need to expect of the story.</p>
@@ -14,37 +14,37 @@
             <section class="op">
                 <article>
                     <h3>Opinion 1</h3>
-                    <img src="" alt="">
+                    <img src="" alt="No img yet">
                     <p>Description</p>
                     <a href="">Opinion 1</a>
                 </article>
                 <article>
                     <h3>Opinion 2</h3>
-                    <img src="" alt="">
+                    <img src="" alt="No img yet">
                     <p>Description</p>
                     <a href="">Opinion 2</a>
                 </article>
                 <article>
                     <h3>Opinion 3</h3>
-                    <img src="" alt="">
+                    <img src="" alt="No img yet">
                     <p>Description</p>
                     <a href="">Opinion 3</a>
                 </article>
                 <article>
                     <h3>Opinion 4</h3>
-                    <img src="" alt="">
+                    <img src="" alt="No img yet">
                     <p>Description</p>
                     <a href="">Opinion 4</a>
                 </article>
                 <article>
                     <h3>Opinion 5</h3>
-                    <img src="" alt="">
+                    <img src="" alt="No img yet">
                     <p>Description</p>
                     <a href="">Opinion 5</a>
                 </article>
                 <article>
                     <h3>Opinion 6</h3>
-                    <img src="" alt="">
+                    <img src="" alt="No img yet">
                     <p>Description</p>
                     <a href="">Opinion 6</a>
                 </article>
@@ -56,37 +56,37 @@
             <section class="op">
                 <article>
                     <h3>Opinion 1</h3>
-                    <img src="" alt="">
+                    <img src="" alt="No img yet">
                     <p>Description</p>
                     <a href="">Opinion 1</a>
                 </article>
                 <article>
                     <h3>Opinion 2</h3>
-                    <img src="" alt="">
+                    <img src="" alt="No img yet">
                     <p>Description</p>
                     <a href="">Opinion 2</a>
                 </article>
                 <article>
                     <h3>Opinion 3</h3>
-                    <img src="" alt="">
+                    <img src="" alt="No img yet">
                     <p>Description</p>
                     <a href="">Opinion 3</a>
                 </article>
                 <article>
                     <h3>Opinion 4</h3>
-                    <img src="" alt="">
+                    <img src="" alt="No img yet">
                     <p>Description</p>
                     <a href="">Opinion 4</a>
                 </article>
                 <article>
                     <h3>Opinion 5</h3>
-                    <img src="" alt="">
+                    <img src="" alt="No img yet">
                     <p>Description</p>
                     <a href="">Opinion 5</a>
                 </article>
                 <article>
                     <h3>Opinion 6</h3>
-                    <img src="" alt="">
+                    <img src="" alt="No img yet">
                     <p>Description</p>
                     <a href="">Opinion 6</a>
                 </article>

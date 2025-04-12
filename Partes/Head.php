@@ -26,5 +26,6 @@
     }
 ?>
 <link rel="stylesheet" href="../CSS/Vistas/<?php echo $css_file; ?>.css">
+<link rel="stylesheet" href="../CSS/Anim/<?php echo $css_file; ?>_anim.css">
 
 <title>Read Proyect</title>
