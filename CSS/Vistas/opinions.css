@@ -3,10 +3,25 @@ main{
     width: 95%;
 }
 main intro{
-    /** Rellenar */
+    margin:auto;
+    width: 60%;
+    display: block;
 }
-
+intro h1{
+    font-size: 2.5em;
+    text-align: center;
+}
+intro p{
+    text-align: justify;
+}
+main hr{
+    margin-top: 1em;
+    height: .25em;
+    background: var(--border-strong);
+    border: none;
+}
 main content{
+    margin-top: 1em;
     display: grid;
     grid-template-columns: .3fr 1fr;
     grid-template-rows: 1fr 1fr;

@@ -1,7 +1,7 @@
 aside{
     padding: 1em 1.5em;
     grid-area: aside;
-    height: 65dvh;
+    max-height: 65dvh;
     background: red;
 
     position: sticky;
