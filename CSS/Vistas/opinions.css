@@ -13,6 +13,8 @@ main content{
     grid-template-areas: "aside manhwa"
                          "aside manga";
     gap: .5em 1em;
+
+    position: relative;
 }
 content .manhwa{
     grid-area: manhwa;
