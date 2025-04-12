@@ -33,7 +33,7 @@
                             Chapters: 86+ <br>
                             A Slice of life romance of a girl having a farm in the middle of a palace, I think you will love it.
                         </p>
-                        <a href="#">Opinion</a>
+                        <a href="Hub.php?vista=article&id=">Opinion</a>
                     </container>
                     <container>
                         <h4 selected>The Archimage’s Restaurant</h4>
@@ -43,7 +43,7 @@
                             Chapters: 75+ <br>
                             Just read it, it is amazing the way it transmits messages, the story is amazing, and it has some impactful moments.
                         </p>
-                        <a href="#">Opinion</a>
+                        <a href="Hub.php?vista=article&id=">Opinion</a>
                     </container>
                     <container>
                         <h4 selected>The Novel’s Extra</h4>
@@ -53,7 +53,7 @@
                             Chapters: 125+ <br>
                             One of the best “isekais” I’ve read, is really interesting how the author ends up inside his work that is being controlled by a co-author.
                         </p>
-                        <a href="#">Opinion</a>
+                        <a href="Hub.php?vista=article&id=">Opinion</a>
                     </container>
                     <container>
                         <h4 selected>The Extra’s Academy Survival Guide</h4>
@@ -63,7 +63,7 @@
                             Chapters: 72+ <br>
                             It may start generic, but it becomes one if not the best fantasy manhwas I read.
                         </p>
-                        <a href="#">Opinion</a>
+                        <a href="Hub.php?vista=article&id=">Opinion</a>
                     </container>
                 </div>
             </section>
@@ -91,14 +91,14 @@
                 <p>Some noteworthy stories I found:</p>
                 <div class="recommend">
                     <container>
-                        <h4 href="#" selected>So I’m a spider, so what?</h4>
-                        <img href="#" src="../Resouces/IMG/Covers/Manga/kumoko.webp" alt="No img at the moment" draggable="false">
+                        <h4 selected>So I’m a spider, so what?</h4>
+                        <img src="../Resouces/IMG/Covers/Manga/kumoko.webp" alt="No img at the moment" draggable="false">
                         <p>
                             Status: Ongoing<br>
                             Chapters: 73+<br>
                             The funniest and most interesting isekai I have read in manga (not counting anime I watch)
                         </p>
-                        <a href="#">Opinion</a>
+                        <a href="Hub.php?vista=article&id=">Opinion</a>
                     </container>
                     <container>
                         <h4 selected>With Vengeance, Sincerely, Your Broken Saintess</h4>
@@ -108,7 +108,7 @@
                             Chapters: 123+<br>
                             One of the best romance and unique stories I have read, I believe it’s becoming an anime.
                         </p>
-                        <a href="#">Opinion</a>
+                        <a href="Hub.php?vista=article&id=">Opinion</a>
                     </container>
                     <container>
                         <h4 selected>The Otome Heroine's Fight for Survival</h4>
@@ -118,7 +118,7 @@
                             Chapters: 23+<br>
                             Amazing start, best in putting tension and having twist and turns in the survival of the protagonist.
                         </p>
-                        <a href="#">Opinion</a>
+                        <a href="Hub.php?vista=article&id=">Opinion</a>
                     </container>
                     <container>
                         <h4 selected>The fed-up office Lady Wants to Serve The villainess</h4>
@@ -128,7 +128,7 @@
                             Chapter: 20+<br>
                             It’s one of the best yuris I have read so far, has a lot of the good drama.
                         </p>
-                        <a href="#">Opinion</a>
+                        <a href="Hub.php?vista=article&id=">Opinion</a>
                     </container>
                 </div>
             </section>
