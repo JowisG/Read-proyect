@@ -18,6 +18,7 @@ main a{
     margin-top: .5em;
     padding: .2em .75em;
     width: 80%;
+    min-width: fit-content;
     
     text-decoration: none;
     text-align: center;

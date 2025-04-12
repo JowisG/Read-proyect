@@ -1,0 +1,14 @@
+main{
+    margin: auto;
+    width: 95%;
+}
+main h1{
+    text-align: center;
+}
+
+article{
+    display: grid;
+    grid-template-columns: .3fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "aside article";
+}

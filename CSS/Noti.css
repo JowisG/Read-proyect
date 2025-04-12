@@ -1,0 +1,70 @@
+noti{
+    margin:auto;
+    margin-top: 25dvh;
+    padding: 1em 2em;
+
+    display:block;
+    width: 50%;
+
+    border: .25em dashed var(--text);
+}
+
+.error {
+    border-color: var(--error);
+}
+.warning {
+    border-color: var(--warning);
+}
+.note {
+    border-color: var(--note);
+}
+.correct {
+    border-color: var(--correct);
+}
+
+noti h1{
+    text-align: center;
+    font-size: 3em;
+}
+noti hr{
+    background: var(--border-strong);
+    height: .25em;
+    border: none;
+}
+noti p{
+    margin: auto;
+    width: 85%;
+    font-size: 1.25em;
+    text-align: center;
+}
+noti a{
+    margin: auto;
+    margin-top:.5em;
+    padding: .5em 1em;
+
+    display: block;
+    width: 20%;
+    min-width: fit-content;
+    text-decoration: none;
+    text-align: center;
+    color: var(--text);
+    border: .1em solid var(--border-strong);
+    border-radius: .5em;
+
+    transition: color .5s ease, background .5s ease;
+}
+
+.error a:hover {
+    background-color: var(--error);
+}
+.warning a:hover {
+    background-color: var(--warning);
+    color: black;
+    border-color: black;
+}
+.note a:hover {
+    background-color: var(--note);
+}
+.correct a:hover {
+    background-color: var(--correct);
+}
