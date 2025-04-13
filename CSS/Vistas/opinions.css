@@ -72,7 +72,7 @@ content div > p{
     
     padding: .25em;
     border-radius: .5em;
-    background: conic-gradient(from var(--degree),#7700ff 10%, #0066ff 40%, #c300ff 90%, #7700ff 100%);
+    background: conic-gradient(from var(--degree),var(--primary) 10%, var(--secondary) 40%, var(--accent) 90%, var(--primary) 100%);
     z-index: -1;
     
     animation: rotate 2s both infinite;

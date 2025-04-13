@@ -18,6 +18,7 @@
 <link rel="stylesheet" href="../CSS/Footer.css">
 <link rel="stylesheet" href="../CSS/Aside.css">
 <link rel="stylesheet" href="../CSS/Noti.css">
+<link rel="stylesheet" href="../CSS/Anim/general_anim.css">
 <!-- Por Vista -->
 <?php 
     $css_file = "Error";
@@ -26,6 +27,10 @@
     }
 ?>
 <link rel="stylesheet" href="../CSS/Vistas/<?php echo $css_file; ?>.css">
-<link rel="stylesheet" href="../CSS/Anim/<?php echo $css_file; ?>_anim.css">
+<?php 
+    if(is_file("../CSS/Anim/".$css_file."_anim.css")){
+        echo '<link rel="stylesheet" href="../CSS/Anim/'.$css_file.'_anim.css">';
+    }
+?>
 
 <title>Read Proyect</title>

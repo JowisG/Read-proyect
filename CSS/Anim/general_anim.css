@@ -10,3 +10,10 @@
         --degree: 360deg;
     }
 }
+@keyframes pan {
+    from{
+        transform: translateX(0%);
+    }to{
+        transform: translateX(-80%);
+    }
+}

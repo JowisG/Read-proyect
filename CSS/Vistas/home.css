@@ -13,27 +13,6 @@ main h1{
 main p{
     margin-top: .75em;
 }
-main a{
-    margin: auto;
-    margin-top: .5em;
-    padding: .2em .75em;
-    width: 80%;
-    min-width: fit-content;
-    
-    text-decoration: none;
-    text-align: center;
-    color: var(--text);
-    border: .2rem solid var(--border-soft);
-    border-radius: 1em;
-
-    transition: transform .5s ease, color .5s ease, background .5s ease;
-}
-main a:hover{
-    color: var(--background);
-    background: var(--text);
-    border-color: var(--border-strong);
-    transform: scale(.9);
-}
 
 main .divisor{
     padding: 1.25em;
@@ -163,13 +142,40 @@ main article .recommend{
 
 .recommend container{
     padding: 1em;
-    border: .2em solid var(--border-soft);
+    background: var(--background);
     border-radius: .5em;
 
     display: grid;
     grid-template-columns: fit-content, 1fr;
     grid-template-rows: repeat(fit-content, 2);
     column-gap: 1em;
+
+    position: relative;
+}
+.recommend container::before, .recommend container::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+
+    background: conic-gradient(from var(--degree) ,var(--primary) 10%, var(--secondary) 40%, var(--accent) 90%, var(--primary) 100%);
+    padding: .2em;
+    border-radius: .5em;
+
+    z-index: -1;
+    animation: rotate 2s linear infinite;
+    animation-play-state: paused;
+}
+.recommend container::after{
+    filter: blur(.4em);
+    opacity: .5;
+}
+.recommend container:hover::before, .recommend container:hover::after{
+    animation-play-state: running;
 }
 .recommend h4{
     grid-column: 1 / span 2;

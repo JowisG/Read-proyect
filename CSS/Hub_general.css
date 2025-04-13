@@ -38,3 +38,46 @@ button:hover{
     box-shadow: .25em .25em .25em var(--shadow);
     transform: scale(1);
 }
+main a{
+    margin: auto;
+    margin-top: .5em;
+    padding: .2em .75em;
+    width: 80%;
+    min-width: fit-content;
+    
+    text-decoration: none;
+    text-align: center;
+    color: var(--text);
+    border: .2rem solid var(--border-soft);
+    border-radius: 1em;
+    overflow: hidden;
+    
+    position: relative;
+    display: block;
+    transition: transform .5s ease, color .5s ease;
+    z-index: 1;
+}
+main a::after{
+    content: "";
+    width: 500%;
+    height: 100%;
+    inset: 0;
+    margin: auto;
+
+    position: absolute;
+    background: linear-gradient(90deg, var(--primary) 15%, var(--secondary) 50%, var(--accent));
+    opacity: 0;
+
+    z-index: -1;
+    transition: opacity .5s ease;
+    animation: pan 5s alternate linear infinite;
+    animation-play-state: paused;
+}
+main a:hover{
+    border-color: var(--border-strong);
+    transform: scale(.9);
+}
+main a:hover::after{
+    opacity: 1;
+    animation-play-state: running;
+}
