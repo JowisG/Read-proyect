@@ -135,6 +135,7 @@ main article ul li:hover{
 }
 
 main article .recommend{
+    margin-top: 1.5em;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 1em;
@@ -146,8 +147,6 @@ main article .recommend{
     border-radius: .5em;
 
     display: grid;
-    grid-template-columns: fit-content, 1fr;
-    grid-template-rows: repeat(fit-content, 2);
     column-gap: 1em;
 
     position: relative;

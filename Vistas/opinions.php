@@ -7,90 +7,17 @@
     <content>
         <?php
             include "./Partes/Aside.php";
+
+            if(isset($_GET['section'])){
+                if($_GET['section'] != "manga")
+                    include "./Partes/Opinions_manhwa.php";
+    
+                if($_GET['section'] != "manwha")
+                    include "./Partes/Opinions_manga.php";
+            }else{
+                include "./Partes/Opinions_manhwa.php";
+                include "./Partes/Opinions_manga.php";
+            }
         ?>
-        <div class="manhwa">
-            <h2>Manhwas</h2>
-            <p>I read a lot more manhwas than mangas (about an 80% more), so I believe I know which stories are worth the time. Most of the manhwas you will find here are the ones I think are incredible and you should give it a shot.</p>
-            <section class="op">
-                <article>
-                    <h3>Opinion 1</h3>
-                    <img src="" alt="No img yet">
-                    <p>Description</p>
-                    <a href="">Opinion 1</a>
-                </article>
-                <article>
-                    <h3>Opinion 2</h3>
-                    <img src="" alt="No img yet">
-                    <p>Description</p>
-                    <a href="">Opinion 2</a>
-                </article>
-                <article>
-                    <h3>Opinion 3</h3>
-                    <img src="" alt="No img yet">
-                    <p>Description</p>
-                    <a href="">Opinion 3</a>
-                </article>
-                <article>
-                    <h3>Opinion 4</h3>
-                    <img src="" alt="No img yet">
-                    <p>Description</p>
-                    <a href="">Opinion 4</a>
-                </article>
-                <article>
-                    <h3>Opinion 5</h3>
-                    <img src="" alt="No img yet">
-                    <p>Description</p>
-                    <a href="">Opinion 5</a>
-                </article>
-                <article>
-                    <h3>Opinion 6</h3>
-                    <img src="" alt="No img yet">
-                    <p>Description</p>
-                    <a href="">Opinion 6</a>
-                </article>
-            </section>
-        </div>
-        <div class="manga">
-            <h2>Mangas</h2>
-            <p>Like I said earlier, I do not read as much manga as manhwa, so take my recommendations more personal than anything else. I do not read the usual popular stories, I am more into reading stories which don’t have an anime and are more average, but some of them are quite good.</p>
-            <section class="op">
-                <article>
-                    <h3>Opinion 1</h3>
-                    <img src="" alt="No img yet">
-                    <p>Description</p>
-                    <a href="">Opinion 1</a>
-                </article>
-                <article>
-                    <h3>Opinion 2</h3>
-                    <img src="" alt="No img yet">
-                    <p>Description</p>
-                    <a href="">Opinion 2</a>
-                </article>
-                <article>
-                    <h3>Opinion 3</h3>
-                    <img src="" alt="No img yet">
-                    <p>Description</p>
-                    <a href="">Opinion 3</a>
-                </article>
-                <article>
-                    <h3>Opinion 4</h3>
-                    <img src="" alt="No img yet">
-                    <p>Description</p>
-                    <a href="">Opinion 4</a>
-                </article>
-                <article>
-                    <h3>Opinion 5</h3>
-                    <img src="" alt="No img yet">
-                    <p>Description</p>
-                    <a href="">Opinion 5</a>
-                </article>
-                <article>
-                    <h3>Opinion 6</h3>
-                    <img src="" alt="No img yet">
-                    <p>Description</p>
-                    <a href="">Opinion 6</a>
-                </article>
-            </section>
-        </div>
     </content>
 </main>

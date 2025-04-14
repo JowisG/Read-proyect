@@ -1,6 +1,9 @@
 aside{
     padding: 1em 1.5em;
-    grid-area: aside;
+
+    grid-column: 1;
+    grid-row: 1;
+
     max-height: 65dvh;
     border: .25em solid var(--border-strong);
     border-radius: 1em;

@@ -24,18 +24,16 @@ main content{
     margin-top: 1em;
     display: grid;
     grid-template-columns: .3fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    grid-template-areas: "aside manhwa"
-                         "aside manga";
     gap: .5em 1em;
 
     position: relative;
 }
 content .manhwa{
-    grid-area: manhwa;
+    grid-column: 2;
 }
 content .manga{
-    grid-area: manga;
+    grid-column: 2;
+    
 }
 content div{
     margin: 0 auto;
@@ -55,9 +53,12 @@ content div > p{
     gap: 2em;
 }
 .op article{
-    padding: 1em;
+    padding: 1.5em;
     border-radius: .5em;
     background: var(--background);
+
+    display: grid;
+    grid-template-rows: min-content min-content;
 
     position: relative;
 }
@@ -84,4 +85,20 @@ content div > p{
 }
 .op article:hover::before, .op article:hover::after{
     animation-play-state: running;
+}
+.op article h3{
+    margin-bottom: 1em;
+    text-align: center;
+    color: var(--background);
+    background-color: var(--text);
+}
+.op article img{
+    margin-bottom: .5em;
+    width: 100%;
+    height: 15em;
+    object-fit: cover;
+    object-position: 0% 0%;
+}
+.op article p{
+    text-align: justify;
 }
