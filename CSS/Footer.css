@@ -9,4 +9,6 @@ footer{
     justify-content: center;
     align-items: center;
     gap: 5em;
+
+    grid-area: 3;
 }

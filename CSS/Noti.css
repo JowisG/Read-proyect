@@ -53,7 +53,9 @@ noti > a{
 
     transition: color .5s ease, background .5s ease;
 }
-
+noti > a:hover{
+    transform: none;
+}
 .error > a:hover {
     background-color: var(--error);
 }
