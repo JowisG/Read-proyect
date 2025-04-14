@@ -22,22 +22,22 @@ noti{
     border-color: var(--correct);
 }
 
-noti h1{
+noti > h1{
     text-align: center;
     font-size: 3em;
 }
-noti hr{
+noti > hr{
     background: var(--border-strong);
     height: .25em;
     border: none;
 }
-noti p{
+noti > p{
     margin: auto;
     width: 85%;
     font-size: 1.25em;
     text-align: center;
 }
-noti a{
+noti > a{
     margin: auto;
     margin-top:.5em;
     padding: .5em 1em;
@@ -54,17 +54,24 @@ noti a{
     transition: color .5s ease, background .5s ease;
 }
 
-.error a:hover {
+.error > a:hover {
     background-color: var(--error);
 }
-.warning a:hover {
+.warning > a:hover {
     background-color: var(--warning);
     color: black;
     border-color: black;
 }
-.note a:hover {
+.note > a:hover {
     background-color: var(--note);
 }
-.correct a:hover {
+.correct > a:hover {
     background-color: var(--correct);
+}
+
+noti > a::after {
+    display: none;
+}
+noti > a:hover::after {
+    display: none;
 }
