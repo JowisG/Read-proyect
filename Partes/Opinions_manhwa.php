@@ -29,7 +29,7 @@
             <p>
                 Status: Ongoing <br>
                 Chapters: 125+ <br>
-                To be added
+                Our protagonist wakes up in his own story, he decides to survive with the knowledge he has, but soon he realizes that a co-author has changed the story. This is a unique take on the reincarnated in your own story, this time it introduces changes in the story our MC isn’t aware of, coming to the conclusion that a co-author must have change it and may or may not be the one who reincarnated him. It has a lot of turns of events were the mc has to adapt, more in the opinion.
             </p>
             <a href="Hub.php?vista=article&id=">Opinion</a>
         </article>
@@ -55,11 +55,11 @@
         </article>
         <article>
             <h3 selected>A Stepmother Märchen</h3>
-            <img src="" alt="No img yet">
+            <img src="../Resouces/IMG/Covers/Manwha/Tam_500/märchen.jpg" alt="No img yet">
             <p>
-                Status: ? <br>
-                Chapters: ? <br>
-                To be added
+                Status: Ongoing <br>
+                Chapters: 127+ <br>
+                A story about a stepmother that died just before she set out to a new life, leaving behind her stepsons, who are almost her age, but in the way to her new life she is assassinated and comes back to when her husband died, now once again having to deal with the weight of the family at the age of 15. I can explain it just with words but this is beyond a masterpiece, the drama it presents is unique and the art complements this greatly,  the writing is top notch, the character have depth and I takes its time to develop the story, more in the opinion.
             </p>
             <a href="Hub.php?vista=article&id=">Opinion</a>
         </article>
