@@ -26,7 +26,7 @@
                 <div class="recommend">
                     <container>
                         <h4 selected>My Farm by the Palace</h4>
-                        <img src="../Resouces/IMG/Covers/Manwha/Tam_500/farm_palace.jpg" alt="No img at the moment" draggable="false">
+                        <img src="../Resouces/IMG/Covers/Manwha/Tam_300/farm_palace.jpg" alt="No img at the moment" draggable="false">
                         <p>
                             Status: Ongoing <br>
                             Chapters: 86+ <br>
@@ -36,7 +36,7 @@
                     </container>
                     <container>
                         <h4 selected>The Archimage’s Restaurant</h4>
-                        <img src="../Resouces/IMG/Covers/Manwha/Tam_500/archmage_restaurant.jpg" alt="No img at the moment" draggable="false">
+                        <img src="../Resouces/IMG/Covers/Manwha/Tam_300/archmage_restaurant.jpg" alt="No img at the moment" draggable="false">
                         <p>
                             Status: Ongoing <br>
                             Chapters: 75+ <br>
@@ -46,7 +46,7 @@
                     </container>
                     <container>
                         <h4 selected>The Novel’s Extra</h4>
-                        <img src="../Resouces/IMG/Covers/Manwha/Tam_500/Extra.jpg" alt="No img at the moment" draggable="false">
+                        <img src="../Resouces/IMG/Covers/Manwha/Tam_300/Extra.jpg" alt="No img at the moment" draggable="false">
                         <p>
                             Status: Ongoing <br>
                             Chapters: 125+ <br>
@@ -56,7 +56,7 @@
                     </container>
                     <container>
                         <h4 selected>The Extra’s Academy Survival Guide</h4>
-                        <img src="../Resouces/IMG/Covers/Manwha/Tam_500/Academy_guide.jpg" alt="No img at the moment" draggable="false">
+                        <img src="../Resouces/IMG/Covers/Manwha/Tam_300/Academy_guide.jpg" alt="No img at the moment" draggable="false">
                         <p>
                             Status: Ongoing <br>
                             Chapters: 72+ <br>
@@ -90,7 +90,7 @@
                 <div class="recommend">
                     <container>
                         <h4 selected>So I’m a spider, so what?</h4>
-                        <img src="../Resouces/IMG/Covers/Manga/Tam_500/kumoko.jpg" alt="No img at the moment" draggable="false">
+                        <img src="../Resouces/IMG/Covers/Manga/Tam_300/kumoko.jpg" alt="No img at the moment" draggable="false">
                         <p>
                             Status: Ongoing<br>
                             Chapters: 73+<br>
@@ -100,7 +100,7 @@
                     </container>
                     <container>
                         <h4 selected>With Vengeance, Sincerely, Your Broken Saintess</h4>
-                        <img src="../Resouces/IMG/Covers/Manga/Tam_500/betrayed_saint.jpg" alt="No img at the moment" draggable="false">
+                        <img src="../Resouces/IMG/Covers/Manga/Tam_300/betrayed_saint.jpg" alt="No img at the moment" draggable="false">
                         <p>
                             Status: Ongoing<br>
                             Chapters: 123+<br>
@@ -110,7 +110,7 @@
                     </container>
                     <container>
                         <h4 selected>The Otome Heroine's Fight for Survival</h4>
-                        <img src="../Resouces/IMG/Covers/Manga/Tam_500/assasin_survival.jpg" alt="No img at the moment" draggable="false">
+                        <img src="../Resouces/IMG/Covers/Manga/Tam_300/assasin_survival.jpg" alt="No img at the moment" draggable="false">
                         <p>
                             Status: Ongoing <br>
                             Chapters: 23+<br>
@@ -120,7 +120,7 @@
                     </container>
                     <container>
                         <h4 selected>The fed-up office Lady Wants to Serve The villainess</h4>
-                        <img src="../Resouces/IMG/Covers/Manga/Tam_500/fed_up_office.jpg" alt="No img at the moment" draggable="false">
+                        <img src="../Resouces/IMG/Covers/Manga/Tam_300/fed_up_office.jpg" alt="No img at the moment" draggable="false">
                         <p>
                             Status: Ongoing <br>
                             Chapter: 20+<br>
