@@ -11,28 +11,33 @@ I am currently writing and structuring the design of the website, so there is no
 > - [x] menu.php
 > - [ ] Menu.css
 > - [ ] var_general.css
-> - [ ] Hub_general.css
+> - [x] Hub_general.css
 > ### Hubs
 > - [ ] Hub.php
-> - [ ] Hub_general.css
+> - [x] Hub_general.css
 > - [ ] home.php
 > - [ ] home.css
 > ### Vistas
-> - [ ] opinions.php
+> - [x] opinions.php
 > - [ ] opinions.css
 > - [ ] about.php
 > - [ ] about.css
 > - [ ] article.php
-> - [ ] article.css
+> - [x] article.css
+> ### Opinions
+> - [ ] To be planned
 > ### Logic
 > - [ ] Connection.php
 > - [ ] SQL_func.php
 > - [ ] Others.php? (Just in case)
 > ### JavaScript
 > - [ ] form_ajax.js (if necessary)
+## How is the website looking
+Here you hve some screenshots of the current state of the website (may be out of date):
+Currently no images I will add them soon.
 # Take note
 > [!IMPORTANT]
-> Please do not try to help. You can fork or use the content of the repository as you may see, but please if you want to help just do it with spelling mistakes or other simple stuff. I am watching a tutorial for PHP and if I ever get stuck, I will search “StackOverflow”.
+> You can hekp me see errors or if you find better ways of doing the same thing but more efficiently you may write an issue about it. You can take the repository for your own personal resons, but if you decide to show it to others please mentionme as the author.
 # Apps and languages used to develop the website
 If you want to know the process, apps and langueges I used for developing this website you can lookit hero or in the content of the website
 ## Languages, apps and services
