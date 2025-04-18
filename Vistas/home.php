@@ -10,7 +10,7 @@
             <section>
                 <h3>Kinds of stories to expect</h3>
                 <p>The manhwas have similar stories to mangas, but they usually feel different enough making them fresh and new. The stories you mostly are going to find are:</p>
-                <ul>
+                <ul selected>
                     <li>Strong protagonist in a fantasy world were monsters or other kinds of threats push the world to an unbalanced state</li>
                     <li>Romance “isekai” or reverse time fantasy stories</li>
                     <li>Academy or school manhwas</li>
@@ -23,11 +23,10 @@
             </section>
             <section>
                 <h3>Remmendations</h3>
-                <p>Some noteworthy stories I found:</p>
                 <div class="recommend">
                     <container>
                         <h4 selected>My Farm by the Palace</h4>
-                        <img src="../Resouces/IMG/Covers/Manwha/farm_palace.webp" alt="No img at the moment" draggable="false">
+                        <img src="../Resouces/IMG/Covers/Manwha/Tam_300/farm_palace.jpg" alt="No img at the moment" draggable="false">
                         <p>
                             Status: Ongoing <br>
                             Chapters: 86+ <br>
@@ -37,7 +36,7 @@
                     </container>
                     <container>
                         <h4 selected>The Archimage’s Restaurant</h4>
-                        <img src="../Resouces/IMG/Covers/Manwha/archmage_restaurant.webp" alt="No img at the moment" draggable="false">
+                        <img src="../Resouces/IMG/Covers/Manwha/Tam_300/archmage_restaurant.jpg" alt="No img at the moment" draggable="false">
                         <p>
                             Status: Ongoing <br>
                             Chapters: 75+ <br>
@@ -47,7 +46,7 @@
                     </container>
                     <container>
                         <h4 selected>The Novel’s Extra</h4>
-                        <img src="../Resouces/IMG/Covers/Manwha/Extra.webp" alt="No img at the moment" draggable="false">
+                        <img src="../Resouces/IMG/Covers/Manwha/Tam_300/Extra.jpg" alt="No img at the moment" draggable="false">
                         <p>
                             Status: Ongoing <br>
                             Chapters: 125+ <br>
@@ -57,7 +56,7 @@
                     </container>
                     <container>
                         <h4 selected>The Extra’s Academy Survival Guide</h4>
-                        <img src="../Resouces/IMG/Covers/Manwha/Academy_guide.webp" alt="No img at the moment" draggable="false">
+                        <img src="../Resouces/IMG/Covers/Manwha/Tam_300/Academy_guide.jpg" alt="No img at the moment" draggable="false">
                         <p>
                             Status: Ongoing <br>
                             Chapters: 72+ <br>
@@ -88,11 +87,10 @@
             </section>
             <section>
                 <h3>Remmendations</h3>
-                <p>Some noteworthy stories I found:</p>
                 <div class="recommend">
                     <container>
                         <h4 selected>So I’m a spider, so what?</h4>
-                        <img src="../Resouces/IMG/Covers/Manga/kumoko.webp" alt="No img at the moment" draggable="false">
+                        <img src="../Resouces/IMG/Covers/Manga/Tam_300/kumoko.jpg" alt="No img at the moment" draggable="false">
                         <p>
                             Status: Ongoing<br>
                             Chapters: 73+<br>
@@ -102,7 +100,7 @@
                     </container>
                     <container>
                         <h4 selected>With Vengeance, Sincerely, Your Broken Saintess</h4>
-                        <img src="../Resouces/IMG/Covers/Manga/betrayed_saint.webp" alt="No img at the moment" draggable="false">
+                        <img src="../Resouces/IMG/Covers/Manga/Tam_300/betrayed_saint.jpg" alt="No img at the moment" draggable="false">
                         <p>
                             Status: Ongoing<br>
                             Chapters: 123+<br>
@@ -112,7 +110,7 @@
                     </container>
                     <container>
                         <h4 selected>The Otome Heroine's Fight for Survival</h4>
-                        <img src="../Resouces/IMG/Covers/Manga/assasin_survival.webp" alt="No img at the moment" draggable="false">
+                        <img src="../Resouces/IMG/Covers/Manga/Tam_300/assasin_survival.jpg" alt="No img at the moment" draggable="false">
                         <p>
                             Status: Ongoing <br>
                             Chapters: 23+<br>
@@ -122,7 +120,7 @@
                     </container>
                     <container>
                         <h4 selected>The fed-up office Lady Wants to Serve The villainess</h4>
-                        <img src="../Resouces/IMG/Covers/Manga/fed_up_office.webp" alt="No img at the moment" draggable="false">
+                        <img src="../Resouces/IMG/Covers/Manga/Tam_300/fed_up_office.jpg" alt="No img at the moment" draggable="false">
                         <p>
                             Status: Ongoing <br>
                             Chapter: 20+<br>
@@ -144,6 +142,11 @@
         <section class="Singup-Extra">
             <h3>Singup to get features</h3>
             <p>No need to singup with an email just a user and a password they must be unique in the data base.</p>
+            <ul selected>
+                <li>More info in "opinions"</li>
+                <li>More content in "Made with"</li>
+                <li>Personal welcome</li>
+            </ul>
             <div class="btns">
                 <button type="button">SingUp</button>
                 <button type="button">Have an account<b>?</b></button>
@@ -151,7 +154,19 @@
         </section>
         <section class="About">
             <h3>About the development of the website</h3>
-            <p>Include description and others</p>
+            <p>Description</p>
+            <div class="divisor">
+                <article>
+                    <h4 selected>References</h4>
+                    <p>Description</p>
+                    <a href="Hub.php?vista=about&section=refers">References</a>
+                </article>
+                <article>
+                    <h4 selected>Made with</h4>
+                    <p>Description</p>
+                    <a href="Hub.php?vista=about&section=made">Web development</a>
+                </article>
+            </div>
         </section>
     </article>
 </main>
