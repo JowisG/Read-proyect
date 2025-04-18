@@ -58,7 +58,7 @@ content div > p{
     background: var(--background);
 
     display: grid;
-    grid-template-rows: min-content min-content;
+    grid-template-rows: min-content 1fr min-content;
 
     position: relative;
 }
@@ -92,13 +92,90 @@ content div > p{
     color: var(--background);
     background-color: var(--text);
 }
+.op article .img_p{
+    width: 100%;
+}
+.op article .img_p div{
+    width: 100%;
+}
 .op article img{
-    margin-bottom: .5em;
     width: 100%;
     height: 15em;
     object-fit: cover;
-    object-position: 0% 0%;
+    object-position: 0% 15%;
 }
 .op article p{
     text-align: justify;
+}
+
+/** Para tamaños de tablet y portatiles entr 1080p y 720p  */
+@media screen and (max-width: 1920px) and (min-width: 1200px){
+    .op{
+        grid-template-columns: 1fr 1fr;
+        gap: 2em;
+    }
+}
+
+@media screen and (max-width: 1920px){
+    main intro{
+        width: 80%;
+    }
+    main content{
+        grid-template-columns: 1fr;
+        row-gap: .5em;
+    }
+    main .manhwa{
+        grid-column: 1;
+        width: 95%;
+    }
+    main .manga{
+        grid-column: 1;
+        width: 95%;
+    }
+}
+
+/*? Para los tamaños de moviles */
+@media screen and (max-width: 1200px){
+    .op{
+        grid-template-columns: 1fr;
+        row-gap: 2em;
+    }
+    .op article{
+        display: block;
+    }
+    .op article .img_p{
+        display: flex;
+        column-gap: 1em;
+    }
+    .img_p div{
+        flex: 1;
+        position: relative;
+    }
+    .op article img{
+       width: 100%;
+       height: 100%;
+       position: absolute;
+    }
+    .op article p{
+        height: fit-content;
+    }
+    .op article a{
+        grid-column: 1 / span 2;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    main intro{
+        width: 90%;
+    }
+    .op article .img_p{
+        display: block;
+    }
+    .op article .img_p div{
+        position: initial;
+    }
+    .op article img{
+        height: 15em;
+        position: initial;
+    }
 }

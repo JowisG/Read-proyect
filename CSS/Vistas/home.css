@@ -74,6 +74,7 @@ main article h4{
 main article p{
     font-size: 1.25em;
     text-align: justify;
+    text-align-last: center;
 }
 
 main article section p{
@@ -96,9 +97,8 @@ main article ul li:nth-child(1){
 main article ul li{
     margin: auto;
     margin-top: .5em;
-    padding: 0 .75em;
+    padding: .25em .75em;
     width: 100%;
-    height: 100%;
     text-align: center;
 
     align-content: center;
@@ -191,6 +191,7 @@ main article .recommend{
     margin-top: 0;
     font-size: .9em;
     text-align: left;
+    text-align-last: left;
 }
 main .extra{
     margin-top: 1em;
@@ -199,6 +200,10 @@ main .extra{
     display: grid;
     grid-template-columns: .5fr 1Fr;
     gap: 2em;
+}
+
+main .extra h3{
+    margin-top: 0;;
 }
 
 main .extra section{
@@ -210,6 +215,9 @@ main .extra section{
 main .extra .Singup-Extra {
     border-style: dashed;
 }
+.Singup-Extra ul{
+    margin: .5em 0;
+}
 main .extra .btns{
     margin: 1em auto auto auto;
     width: 60%;
@@ -219,7 +227,7 @@ main .extra .btns{
 }
 
 /** Para tamaños de tablet y portatiles entr 1080p y 720p  */
-@media screen and (max-width: 1920px) and (min-width: 1024px){
+@media screen and (max-width: 1920px) and (min-width: 1200px){
     main{
         width: 100%;
     }
@@ -231,7 +239,9 @@ main .extra .btns{
         padding: .5em 2em;
     }
     main .extra{
-        width: 97%;
+        width: 95%;
+        grid-template-columns: 1fr;
+        gap: 1em;
     }
     .recommend{
         display: grid;
@@ -252,7 +262,7 @@ main .extra .btns{
 }
 
 /** Para tamaños de movil; cambios para movil */
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1200px){
     main .divisor{
         padding: 1em;
         flex-direction: column;
@@ -271,7 +281,7 @@ main .extra .btns{
     }
     
     main .extra{
-        grid-template-columns: 1Fr;
+        grid-template-columns: 1fr;
         gap: 1em;
     }
 }

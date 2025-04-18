@@ -10,7 +10,7 @@
             <section>
                 <h3>Kinds of stories to expect</h3>
                 <p>The manhwas have similar stories to mangas, but they usually feel different enough making them fresh and new. The stories you mostly are going to find are:</p>
-                <ul>
+                <ul selected>
                     <li>Strong protagonist in a fantasy world were monsters or other kinds of threats push the world to an unbalanced state</li>
                     <li>Romance “isekai” or reverse time fantasy stories</li>
                     <li>Academy or school manhwas</li>
@@ -142,6 +142,11 @@
         <section class="Singup-Extra">
             <h3>Singup to get features</h3>
             <p>No need to singup with an email just a user and a password they must be unique in the data base.</p>
+            <ul selected>
+                <li>More info in "opinions"</li>
+                <li>More content in "Made with"</li>
+                <li>Personal welcome</li>
+            </ul>
             <div class="btns">
                 <button type="button">SingUp</button>
                 <button type="button">Have an account<b>?</b></button>
@@ -149,7 +154,19 @@
         </section>
         <section class="About">
             <h3>About the development of the website</h3>
-            <p>Include description and others</p>
+            <p>Description</p>
+            <div class="divisor">
+                <article>
+                    <h4 selected>References</h4>
+                    <p>Description</p>
+                    <a href="Hub.php?vista=about&section=refers">References</a>
+                </article>
+                <article>
+                    <h4 selected>Made with</h4>
+                    <p>Description</p>
+                    <a href="Hub.php?vista=about&section=made">Web development</a>
+                </article>
+            </div>
         </section>
     </article>
 </main>
