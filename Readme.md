@@ -34,7 +34,15 @@ I am currently writing and structuring the design of the website, so there is no
 > - [ ] form_ajax.js (if necessary)
 ## How is the website looking
 Here you hve some screenshots of the current state of the website (may be out of date):
-Currently no images I will add them soon.
+> [!NOTE]
+> The layout is fora 4k monitore it may be different for different sized screens.
+> <br> **18 of April 2025**
+### HOME
+![alt text](Resouces/IMG/Readme/Home.png)
+### Opinions Page
+![alt text](Resouces/IMG/Readme/Opinions.png)
+### Error page
+![alt text](Resouces/IMG/Readme/Error.png)
 # Take note
 > [!IMPORTANT]
 > You can hekp me see errors or if you find better ways of doing the same thing but more efficiently you may write an issue about it. You can take the repository for your own personal resons, but if you decide to show it to others please mentionme as the author.
